@@ -1,0 +1,37 @@
+div {
+        width: 100vw;
+         height: 100vh;
+        background: #00FA9A;
+       display: flex;
+       flex-direction: row;
+         justify-content: center;
+        align-items: center;
+        font-family:"Courier New";
+}
+button {
+	background:black;
+	border: 1px solid grey;
+    font-family:"Courier New";
+    color: #00FA9A;
+	border-radius:10px;
+	
+}
+
+input,select {
+	border-radius:10px;
+	background:grey;
+	color:white;
+	font-family:"Courier New";
+	width:150px;
+	
+	
+}
+
+fieldset {
+    background-color: lightseagreen;
+}
+legend {
+
+    background-color: black;
+    color: aliceblue
+}
