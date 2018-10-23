@@ -9,7 +9,7 @@ import { PessoaComponent } from './pessoa/pessoa.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
     PessoaComponent,
     HttpClientModule
   ],

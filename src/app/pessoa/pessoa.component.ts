@@ -55,7 +55,7 @@ export class PessoaComponent implements OnInit {
     return this.pessoas.findIndex(pessoa => pessoa.id === id);
   }
   buscartodas (){
-    this.servicePessoas.getPessoas().subscribe(pessoa => this.pessoas = pessoa);
+    this.servicePessoas.getPessoas().subscribe(pessoa => this.pessoas = this.pessoas);
 
   }
 
